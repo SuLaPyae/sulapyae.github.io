@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="style.scss">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link href='https://fonts.googleapis.com/css?family=Russo One' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+
+</head>
+
+<body>
+
+
+    <body>
+        <div class="header">
+            <div class="navbar">
+                <ul>
+                    <li class="hvr-bounce-to-right">About me</li>
+                    <li class="hvr-bounce-to-right">Experience</li>
+                    <li class="hvr-bounce-to-right">Contact</li>
+                    <li class="hvr-bounce-to-right">Education</li>
+                </ul>
+
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <h1> Hi, I am </h1>
+                        <h2> Su La Pyae</h2>
+                        <h3> I am freelance UI/UX designer</h3>
+
+                        <div class="div1">
+                            <i class="fa fa-facebook-square fa-2x" aria-hidden="true"></i>
+                            <i class="fa fa-github fa-2x" aria-hidden="true"></i>
+                            <i class="fa fa-instagram fa-2x" aria-hidden="true"></i>
+                        </div>
+
+                    </div>
+
+                    <div class="col-lg-6">
+                        <img src="mypic.jpg" class="mypic">
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+
+        <div class="container2">
+            <div class="row">
+
+                <div class="col-lg-5">
+
+                    <h4> My <br> biography </h4>
+
+                    <button class="button1"> <a style="color: gold;" href="upload/sucv2020.pdf"> My CV </a></button>
+                </div>
+                <div class="col-lg-7">
+                    <p class="para_one"> New Bedford remained my home through my secondary school years. I graduated
+                        from New Bedford High School in 1965. I had the opportunity to go to college, but I opted for a
+                        hitch in the Navy. If you recall, at that time, you only had a few choices: go to college, wait
+                        to be drafted, enlist or get married and hope for the best.
+
+                    </p>
+
+                    <span class="circle1"> <span class="circle3"></span> </span>
+                    <span class="circle2"></span>
+
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="container3">
+            <h5> What can I do ?</h5>
+
+            <table>
+                <tr>
+                    <th>
+                        <div class="card">
+                            <img src="1.png" alt="" class="hvr-bob">
+                            <h6>UI/UX design</6>
+                        </div>
+                    </th>
+                    <th>
+                        <div class="card">
+                            <img src="2.png" alt="" class="hvr-bob">
+                            <h6>Graphic design</h6>
+                        </div>
+                    </th>
+                    <th>
+                        <div class="card">
+                            <img src="3.png" alt="" class="hvr-bob">
+                            <h6>Web development</h6>
+                        </div>
+                    </th>
+                    <th>
+                        <div class="card">
+                            <img src="4.png" alt="" class="hvr-bob">
+                            <h6>Managment Experience </h6>
+                        </div>
+                    </th>
+                </tr>
+            </table>
+        </div>
+
+        <div class="container4">
+            <h1>All My Work Project</h1>
+
+            <div id="slider">
+                <figure>
+                    <img src="tea.png" alt>
+                    <img src="os.png" alt>
+                    <img src="news.png" alt>
+                    <img src="contact.png" alt>
+                    <img src="pizza.png" alt>
+
+
+                </figure>
+            </div>
+
+        </div>
+
+    </body>
+
+    <footer>
+        <table>
+            <tr>
+                <th>HTML</th>
+                <th>CSS</th>
+                <th>JAVASCRIPT</th>
+                <th>Bootstrap</th>
+                <th>Java</th>
+                <th>PHP</th>
+                <th>MySQL</th>
+            </tr>
+
+        </table>
+        <div class="hvr-bounce-in">
+            <a href="mailto:sulapyae2017@gmail.com"><i class="fa fa-envelope-open fa-3x" aria-hidden="true"></i> </a>
+        </div>
+        <h6 style="font-size: large;margin-left: 45px;font-weight: bolder;">mail me</h6>
+
+        <div class="icon">
+            <i class="fa fa-commenting fa-4x" onclick="openForm()" aria-hidden="true"></i>
+        </div>
+
+        <div class="chat-popup" id="myForm">
+            <form action="/action_page.php" class="form-container">
+
+
+                <label for="msg"><b>Message</b></label>
+                <textarea placeholder="Type message.." name="msg" required></textarea>
+
+                <button type="submit" class="btn">Send</button>
+                <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+    </footer>
+
+
+    <script>
+        function openForm() {
+            document.getElementById("myForm").style.display = "block";
+        }
+
+        function closeForm() {
+            document.getElementById("myForm").style.display = "none";
+        }
+    </script>
+</body>
+
+</html>
